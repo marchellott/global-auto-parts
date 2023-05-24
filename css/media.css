@@ -1,0 +1,551 @@
+@media screen and (max-width:1366px) {
+    #logo {
+        width: 175px;
+    }
+    #dark_logo {
+        width: 175px;
+    }
+    .nav {
+        margin-left: 20px;
+    }
+
+    .nav ul > li {
+        font-size: 14px;
+    }
+
+    .nav ul > li > a {
+        margin: 0px 8px 0px 8px;
+    }
+
+    .head_form {
+        width: 90%;
+    }
+
+    .block_advantages {
+        height: auto;
+    }
+
+    .block_about_us {
+        height: 600px;
+    }
+
+    .block_map {
+        width: 60%;
+    }
+    .footer_contacts {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1152px) {
+    .nav {
+        margin-left: 20px;
+    }
+    .nav ul > li > a {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .head_form {
+        width: 100%;
+    }
+    .head_form form > select {
+        width: 290px;
+    }
+    .head_form form > input {
+        width: 290px;
+    }
+
+    .block_consultation .feedback_form form {
+        width: 70%;
+    }
+
+    .block_map {
+        width: 50%;
+    }
+    .footer_contacts {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .head_form form > input {
+        width: 260px;
+    }
+    .head_form form > select {
+        width: 260px;
+    }
+
+    .block_consultation .feedback_form form {
+        width: 70%;
+    }
+
+    #ca-container {
+        width: 900px;
+    }
+    .ca-item {
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #logo img {
+        width: 180px;
+    }
+    .work_time {
+        display: none;
+    }
+    .block_our_location {
+        display: none;
+    }
+
+    .head_form {
+        width: 94%;
+    }
+    .head_form_text h5 {
+        font-size: 17px;
+    }
+    .head_form p {
+        font-size: 13px;
+    }
+    .head_form form > input {
+        width: 220px;
+    }
+    .head_form form > select {
+        width: 170px;
+    }
+
+    .block_about_us {
+        height: 700px;
+    }
+
+    .block_consultation .feedback_form form {
+        width: 90%;
+    }
+
+    #ca-container {
+        width: 600px;
+    }
+
+    .footer_contacts {
+        padding: 30px 30px 30px 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    body {
+        background-image: none;
+        background-color: #000;
+    }
+
+    .header_border_bottom {
+        display: block;
+    }
+
+    .btn_mobile_menu {
+        display: block !important;
+        height: 60px;
+        margin-top: 5px;
+    }
+    .background {
+        display: block;
+    }
+    .menu {
+        display: block;
+    }
+    .topbar {
+        float: left;
+        height: auto;
+        background-color: none;
+        padding-bottom: 50px;
+    }
+    header {
+        background-color: #fff;
+        float: left;
+        height: auto;
+    }
+    header .nav ul > li > a {
+        color: #000;
+    }
+    header .nav ul > li > a:hover {
+        color: #5BA2A6;
+    }
+    header .mobile_contacts_head > ul > li {
+        background-color: #fff;
+    }
+    header .mobile_contacts_head > ul > li > a {
+        color: #000;
+        border: 1px solid #000;
+        padding: 4px 10px 4px 10px;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 100px;
+    }
+    header ul.head_social_list a:first-child:before {
+        content: "";
+        float: left;
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/viber.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all 0.2s;
+    }
+    header ul.head_social_list a:first-child:hover:before {
+        content: "";
+        cursor: pointer;
+        float: left;
+        width: 32px;
+        height: 32px;
+        margin-top: 10px;
+        background-image: url("../images/viber_inher.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header ul.head_social_list a:nth-child(2):before {
+        content: "";
+        float: left;
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/telegram_black.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all 0.2s;
+    }
+    header ul.head_social_list a:nth-child(2):hover:before {
+        content: "";
+        cursor: pointer;
+        float: left;
+        width: 32px;
+        height: 32px;
+        margin-top: 10px;
+        background-image: url("../images/telegram_inher.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header ul.head_social_list a:nth-child(3):before {
+        content: "";
+        float: left;
+        width: 32px;
+        height: 32px;
+        margin-top: 0px;
+        background-image: url("../images/whatsapp.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all 0.2s;
+    }
+    header ul.head_social_list a:nth-child(3):hover:before {
+        content: "";
+        margin-top: 10px;
+        cursor: pointer;
+        float: left;
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/whatsapp_inher.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header .btn_mobile_menu {
+        background-image: url("../images/black_menu.png");
+    }
+    header #logo {
+        background-image: url("../images/logo_new_25_mobile.png");
+        margin-top: 15px;
+        background-size: 100%;
+    }
+    #logo {
+        display: none;
+    }
+    #dark_logo {
+        display: none !important;
+    }
+    #dark_logo_display {
+        display: none !important;
+    }
+    #mobile_logo {
+        display: block;
+        width: 195px;
+        margin-top: 5px;
+    }
+    #mobile_logo svg {
+        max-width: 100%;
+    }
+    .nav {
+        display: none;
+    }
+    .contacts_head {
+        width: 110px;
+        height: 60px;
+        padding-left: 5px;
+    }
+    ul.head_social_list {
+        height: 60px;
+    }
+    ul.head_social_list li {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .primary_text {
+        width: 90%;
+        height: auto;
+    }
+    .primary_text h3 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .head_form {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .head_form_text {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .head_form_text h5 {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .head_form form > input {
+        width: 100%;
+        border-radius: 10px !important;
+        margin-right: 0px !important;
+        margin-bottom: 5px;
+    }
+    .head_form form > select {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .btn_submit {
+        padding: 0px;
+    }
+    .btn_submit button {
+        width: 300px;
+        margin-top: 10px;
+    }
+    ul.phone_block {
+        display: none;
+    }
+    .mobile_contacts_head {
+        display: block;
+        margin-top: 0px;
+    }
+    .work_time {
+        display: none;
+    }
+    .block_our_location {
+        display: none;
+    }
+    .block_advantages {
+        display: none !important;
+        height: auto;
+    }
+    .block_advantages_mobile {
+        height: auto;
+        display: block !important;
+    }
+    .col_adv img {
+        width: 40px;
+    }
+    .col_adv h3 {
+        font-size: 15px;
+    }
+    .col_adv p {
+        font-size: 13px;
+    }
+    .block_about_us {
+        background-color: none;
+        float: left;
+        height: auto;
+        padding-top: 0px;
+    }
+    .block_about_text {
+        display: none;
+        width: 100%;
+    }
+    .title_block {
+        display: none;
+    }
+    .block_consultation {
+        background-color: none;
+        width: 100%;
+        float: left;
+        height: auto;
+        padding: 30px 0px 30px 0px;
+    }
+    .block_consultation > div > img {
+        width: 120px;
+    }
+    .block_consultation .feedback_form h3 {
+        font-size: 16px;
+    }
+    .block_consultation .feedback_form form {
+        width: 100%;
+    }
+    .block_consultation .feedback_form form > input {
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 10px !important;
+    }
+    .block_consultation .feedback_form form > button {
+        margin-top: 0px;
+    }
+
+    .block_consultation .feedback_form form > input:first-child {
+        width: 100%;
+    }
+    .block_consultation .feedback_form form > button {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .reviews_block {
+        background-color: none;
+        float: left;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .reviews_block button {
+        float: none;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0px;
+    }
+
+    .reviews_posts {
+        margin-bottom: 5px;
+    }
+    .rev_post {
+        padding: 5px;
+        margin: 5px;
+    }
+    .rev_post h3 {
+        font-size: 18px;
+        width: 100%;
+    }
+    .rev_post h5 {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+    }
+    .rev_post p {
+        float: left;
+        font-size: 13px;
+    }
+
+    footer {
+        background-color: none;
+        float: left;
+        height: auto;
+    }
+    .footer_contacts {
+        width: 100%;
+        padding: 15px 0px 15px 0px;
+    }
+    .footer_contacts ul > li > img {
+        transform: none;
+    }
+    ul.list_adress li {
+        margin: 0px;
+        padding-left: 0px;
+    }
+    .block_map {
+        width: 100%;
+    }
+    .footer_menu {
+        height: auto;
+    }
+    .footer_menu ul {
+        display: block;
+    }
+    .footer_menu ul > li {
+        width: 100%;
+        font-size: 14px;
+        list-style-type: none;
+        padding: 5px 0px 5px 0px;
+    }
+    ul.phone_list {
+        width: 100%;
+        padding-left: 15px;
+    }
+    ul.phone_list li {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding-left: 0px;
+    }
+    ul.phone_list li > a {
+        float: none;
+        text-decoration: none;
+    }
+    ul.social_list {
+        width: 50%;
+        float: none;
+        display: flex;
+        margin: 0 auto;
+    }
+    ul.list_adress {
+        padding-left: 25px;
+    }
+    .footer_contacts ul > li > a > img {
+        width: 30px;
+    }
+    .copyright {
+        width: 100%;
+    }
+    .copyright > p {
+        width: 100%;
+        text-align: center;
+    }
+    .hawk {
+        width: 100%;
+    }
+    .hawk > p {
+        text-align: center;
+    }
+
+    #toTop {
+        display: none !important;
+    }
+
+    .block_map {
+        height: 308px;
+    }
+
+    .block_map iframe {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #mobile_logo {
+        width: 150px;
+        margin-top: 5px;
+    }
+    .contacts_head {
+        width: 130px;
+    }
+    .contacts_head ul.head_social_list > li > a > img {
+        width: 25px;
+    }
+
+    ul.list_adress {
+        padding-left: 8px;
+    }
+
+    .reviews_block button {
+        width: 270px;
+    }
+
+    header .mobile_contacts_head > ul > li > a {
+        font-size: 12px;
+    }
+}
