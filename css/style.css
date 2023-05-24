@@ -24,7 +24,7 @@ header.smaller .btn_mobile_menu {
 
 .menu {
     background: #fff;
-    left: -500px; /* прячем меню */
+    left: -3500px; /* прячем меню */
     top: 0;
     height: 100%;
     position: fixed;
@@ -40,7 +40,7 @@ header.smaller .btn_mobile_menu {
     background: #fff;
     position: fixed;
     width: 100%;
-    left: -500px;
+    left: -3500px;
     top: 0;
     height: 100%;
     z-index: 99999999;
